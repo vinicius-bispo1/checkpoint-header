@@ -1,0 +1,7 @@
+import styled from "styled-components";
+
+export const Main = styled.main`
+border: solid 2px red;
+height: 100vh;
+display: flex;
+`
