@@ -8,23 +8,23 @@ import * as S from "./styled"
 export default function Header() {
   return (
     <S.Header>
-        <div>
+        <S.BoxLogo>
             <img src="https://a91mcico4j0e.avataruol.com.br/avatar.jpg" alt="" />
-            <h2>Izabel Mattos</h2>
-            <p>Front-end Developer</p>
-        </div>
-              <nav>
+            <S.Title>Izabel Mattos</S.Title>
+            <S.Text>Front-end Developer</S.Text>
+        </S.BoxLogo>
+              <S.BoxMenu>
                 <ul>
-                    <li><Link to="/">Inicio</Link></li>
-                    <li><Link to="/sobre">Sobre mim</Link></li>
-                    <li><Link to="/projetos">Projetos</Link></li>
+                    <S.Lista linha="1px solid white"><Link to="/">Inicio</Link></S.Lista>
+                    <S.Lista><Link to="/sobre">Sobre mim</Link></S.Lista>
+                    <S.Lista><Link to="/projetos">Projetos</Link></S.Lista>
                 </ul>
-              </nav>
-              <div>
+              </S.BoxMenu>
+              <S.BoxIcon>
                 <a href=""> <img src={linkedin} alt="" /> </a>
-                <a href=""> <img src={git} alt="" /> </a>
+                <a href=""> <img className="borda" src={git} alt="" /> </a>
                 <a href=""> <img src={face} alt="" /> </a>
-              </div>
+              </S.BoxIcon>
     </S.Header>
   )
 }
