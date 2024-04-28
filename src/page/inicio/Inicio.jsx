@@ -10,7 +10,6 @@ export default function Inicio() {
       <S.Container>
         <S.BoxInicio>
           <div>
-            <h2>Bom dia</h2>
           <h1>Olá meu nome e vinicius sou dev front-end</h1>
           <p>Não é a linguagem de programação que define o programador, mas sim sua lógica.</p>
          </div>
