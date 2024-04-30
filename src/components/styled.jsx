@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
 `
 
 export const Header = styled.header`
-border: solid 2px;
+
 background-color:#4A5051;
 width: 15vw;
 display: flex;
@@ -26,7 +26,7 @@ flex-direction: column;
    }
 `;
 export const BoxLogo = styled.div`
-/* border: solid 2px yellow; */
+ /* border: solid 2px yellow;  */
 width: 100%;
 height: 35vh;
 display: flex;

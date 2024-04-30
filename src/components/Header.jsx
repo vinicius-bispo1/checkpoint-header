@@ -10,7 +10,7 @@ export default function Header() {
     <S.Header>
         <S.BoxLogo>
             <img src="https://a91mcico4j0e.avataruol.com.br/avatar.jpg" alt="" />
-            <S.Title>Izabel Mattos</S.Title>
+            <S.Title>Viniciu Bipo</S.Title>
             <S.Text>Front-end Developer</S.Text>
         </S.BoxLogo>
               <S.BoxMenu>
